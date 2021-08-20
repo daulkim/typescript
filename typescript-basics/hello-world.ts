@@ -13,7 +13,7 @@ myArr = [1,2];
 myArr.push(1);
 
 a = myArr.pop();
-// compile error
+// compile error -> js에선 타입이 없으므로 컴파일은 됨 
 // a = true;
 // b = myArr.pop();
 
@@ -23,3 +23,4 @@ a = myArr.pop();
  **/
 var myTuple: [number,boolean];
 myTuple = [1,true];
+
