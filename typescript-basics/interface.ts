@@ -4,7 +4,7 @@ interface Person2 {
     getFullName(): string;
 }
 
-class something implements Person{
+class something implements Person2{
     firstName: string;
     lastName: string;
     getFullName(): string {
